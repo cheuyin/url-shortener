@@ -16,14 +16,13 @@
   - Presenter wants to show links at the end of their presentation that are short enough for the audience to type in
 
 ## MVP Features
-- Web page for users to shorten their links
+- Web page where users can paste a long link, click a button, and get back a working short link
 
 ## MVP Architecture
 - Tech Stack:
   - NextJS for frontend
   - FastAPI for the backend
   - PostgreSQL to store link entries
-- 
 
 ## Future Roadmap
 - Add Redis for caching to speed up redirects
