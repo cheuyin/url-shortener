@@ -19,7 +19,11 @@
 - Web page for users to shorten their links
 
 ## MVP Architecture
-
+- Tech Stack:
+  - NextJS for frontend
+  - FastAPI for the backend
+  - PostgreSQL to store link entries
+- 
 
 ## Future Roadmap
 - Add Redis for caching to speed up redirects
@@ -27,6 +31,6 @@
 - Analytics for links (# clicks, geography of clickers)
 - Allows users to name their links
 - Show ads for ad revenue
-- Short and memorable name to make it a brand
+- Short and memorable name
 - Auto-delete old names
 - Paid tier for longer hosting, faster speeds, better analytics
