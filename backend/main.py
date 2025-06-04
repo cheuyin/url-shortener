@@ -14,7 +14,7 @@ class ShortURLRequest(BaseModel):
     alias: str
 
 
-@app.get("/api/v1/urls/{alias}")
+@app.get("/{alias}")
 async def get_original_url(alias: str):
     # Check that the alias is stored
     if alias not in url_store:

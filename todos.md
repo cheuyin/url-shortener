@@ -1,8 +1,10 @@
 ## Backend
+Implement bare-bones functionality.
 - [x] Create a Python virtual env in `backend/`
 - [x] Start a FastAPI server
 - [x] Create a `POST` endpoint that saves a long URL --> short URL mapping in memory
 - [x] Create a `GET` endpoint for short URLs and redirects the user if the mapping exists
+- [ ] Make the root route the redirect route
   
 ## Frontend
 
