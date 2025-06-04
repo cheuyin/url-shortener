@@ -1,12 +1,5 @@
 # URL Shortener Tasks
 
-## Project Stages
-- [x] Learn what a URL Shortener is and what an MVP looks like
-- [ ] Design the basic architecture of the MVP
-- [ ] Choose a tech stack
-- [ ] Implement
-- [ ] Deploy on the web
-
 ## What is a URL shortener?
 - Purpose: Turns long URLs into shorter ones to make them easier to share and remember.
 - How: Stores a database of short link -> long link mappings. When somebody clicks on the short link, the service redirects them to the longer link.
@@ -15,10 +8,8 @@
   - Social media (e.g. Instagram) user wants to put a link in their bio but doesn't want to make it ugly; maybe even name it
   - Presenter wants to show links at the end of their presentation that are short enough for the audience to type in
 
-## MVP Features
-- Web page where users can paste a long link, click a button, and get back a working short link
-
-## MVP Architecture
+## MVP v0.1.0
+- Web page where users can paste a long link, click a button, and get back a working short link that persists for a specified amount of time
 - Tech Stack:
   - NextJS for frontend
   - FastAPI for the backend
