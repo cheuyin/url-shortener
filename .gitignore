@@ -144,3 +144,4 @@ Thumbs.db
 *.db
 *.db3
 *.sqlitedb
+*.db-journal
