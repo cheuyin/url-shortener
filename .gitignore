@@ -138,3 +138,9 @@ poetry.lock
 .Trashes
 ehthumbs.db
 Thumbs.db 
+
+# All DB files
+*.sqlite3
+*.db
+*.db3
+*.sqlitedb
