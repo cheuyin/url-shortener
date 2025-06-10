@@ -30,3 +30,5 @@ async def create_short_url(request: ShortURLRequest):
     short_url = base_url + request.alias
     url_store[request.alias] = request.original_url
     return {"short_url": short_url}
+
+

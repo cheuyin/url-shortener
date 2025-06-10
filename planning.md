@@ -9,8 +9,12 @@
   - Presenter wants to show links at the end of their presentation that are short enough for the audience to type in
 
 ## MVP v0.1.0
-- Web page where users can paste a long link, click a button, and get back a working short link that persists for a specified amount of time
-- Tech Stack:
-  - NextJS for frontend
-  - FastAPI for the backend
-  - PostgreSQL to store link entries
+A website where users can generate shortened URLs with custom aliases.
+- Core Value Proposition:
+  - Users get clarity about how long their link will last
+  - No frills flow for generating their link
+- Features:
+  - Single page where users can paste their link and get back a shortened link that persists for at least a month
+  - Users can choose an alias or just generate a random alias
+  - Allow users to configure how long their link lasts. When a link expires, the alias gets recycled for reuse.
+
